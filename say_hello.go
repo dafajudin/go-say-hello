@@ -1,5 +1,7 @@
 package go_say_hello
 
-func SayHello() string{
-	return "hello World" 
+import "strings"
+
+func SayHello(name string) string {
+	return "hello" + name
 }
